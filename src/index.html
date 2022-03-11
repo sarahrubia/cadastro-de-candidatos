@@ -1,0 +1,51 @@
+<!-- Sobre o projeto
+
+O objetivo é criar uma aplicação que tenha as seguintes funcionalidades:
+
+    Duas páginas: cadastro e listagem.
+    Estrutura da página:
+        Topo com uma imagem da Newtab Academy
+        Menu superior com os dois links das páginas
+    Cadastro de novos candidatos. 
+        Cada registro possui os seguintes dados: Nome, Telefone, Experiência Prévia (Sim ou não).
+        Validar o formulário para que todos os campos sejam preenchidos.
+        Adicionar uma máscara no campo “Telefone”.
+    Listagem de todos os candidatos respeitando a ordem de cadastro.
+        Incluir o botão “Alterar” para poder editar um registro cadastro.
+        Marcar os candidatos com experiência prévia com verde e os sem experiência com vermelho.
+    A aplicação deverá ser responsiva.
+    Persistir as transações no Local Storage.
+
+Observação: algumas partes são programadas com JavaScript (como por exemplo colocar máscara no campo de telefone e colorir as experiências dos candidatos) e por isso só serão feitas pelo facilitador no próximo módulo… neste o foco é apenas no HTML/CSS.  
+
+CRUD: Cadastro, leitura, alteração e deleção
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <!-- Os dois pontos e barra ( ../) em frente ao assets são utilizados porque os arquivos html e a img não estão na mesma pasta ou no mesmo nível -->
+        <img src="../assets/img/newtab-logo.png" alt="newtab academy logo" />
+    </header>
+    <section class="menu">
+        <a href="./index.html">
+            Listagem
+        </a>
+        <a href="./form.html">
+            Cadastrar
+        </a>
+
+    </section>
+
+    
+</body>
+</html>
