@@ -10,7 +10,8 @@ Projeto guiado proposto pela [Newtab Academy](https://www.newtab.academy/). O ob
 
 ## Layout do projeto
 
-![Layout da página](link)
+![Layout da página de cadastro](https://github.com/sarahrubia/projeto-guiado-nta/blob/main/assets/img/layoutcadastro.png)
+![Layout da página de listagem](https://github.com/sarahrubia/projeto-guiado-nta/blob/main/assets/img/layoutlistagem.png)
 
 ### Interaja com a página
 
