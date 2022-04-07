@@ -28,7 +28,7 @@ function desenhaTabela() {
                     </td>
                     <td>
                         <button onclick="deletarAlunos(${dados});">Excluir</button>
-                        <a href="projeto-guiado-nta/src/form.html?dadosAlunos=${dados}">Alterar</a>
+                        <a href="./src/form.html?dadosAlunos=${dados}">Alterar</a>
                     </td>
                 </tr>
                 `
